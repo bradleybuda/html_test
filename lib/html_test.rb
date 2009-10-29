@@ -1,3 +1,5 @@
+gem 'test-unit'
+
 %w(validator assertions url_selector url_checker link_validator validate_filter).each do |file|
   require File.join(File.dirname(__FILE__), file)
 end
